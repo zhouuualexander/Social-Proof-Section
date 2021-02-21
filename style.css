@@ -4,6 +4,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+  background-position: 0vh 0vh, 100vh 50vh;
+  background-repeat: no-repeat;
 }
 .top-wrap {
   margin-bottom: 5vh;
