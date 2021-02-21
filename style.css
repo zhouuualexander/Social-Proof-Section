@@ -1,4 +1,5 @@
 body {
+  font-family: "Spartan", sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -6,13 +7,135 @@ body {
 }
 .top-wrap {
   margin-bottom: 5vh;
-  margin-top: 5vh;
-  margin-left: 10vw;
+  margin-top: 12vh;
+  margin-left: 15vw;
   margin-right: 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-img {
+  margin-top: 40px;
+}
+.profile-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 32px;
 }
 .bottom-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin-bottom: 5vh;
   margin-top: 5vh;
-  margin-left: 10vw;
+  margin-left: 14vw;
   margin-right: 10vw;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  width: 30vw;
+}
+.rate {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  justify-content: center;
+  width: 30vw;
+}
+.rate-element {
+  margin-bottom: 16px;
+  width: 445px;
+  height: 56px;
+  background: #f7f2f7;
+  border-radius: 8px;
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #512051;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nameNposition {
+  margin-top: 40px;
+  margin-left: 23px;
+}
+.rate-img {
+  margin-right: 32px;
+  margin-left: 32px;
+}
+#second-rate {
+  margin-left: 2vw;
+}
+#third-rate {
+  margin-left: 4vw;
+}
+#second-comment {
+  margin-top: 3vh;
+}
+#third-comment {
+  margin-top: 5vh;
+}
+.comment-element {
+  background: #512051;
+  border-radius: 8px;
+  width: 350px;
+  height: 234px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.name {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.position {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #ee69a4;
+}
+.info {
+  margin-bottom: 2vh;
+  display: flex;
+}
+footer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+.comment-text {
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  margin-left: 32px;
+  margin-right: 32px;
+  /* or 169% */
+
+  letter-spacing: -0.232143px;
+
+  color: #ffffff;
 }
